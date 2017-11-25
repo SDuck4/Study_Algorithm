@@ -30,3 +30,5 @@ function fibonacci(num) {
     }
     return numN;
 }
+
+console.log(fibonacci(3));

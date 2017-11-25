@@ -36,5 +36,4 @@ function caesar(s, n) {
     return arrChar.join('');
 }
 
-// 실행을 위한 테스트코드입니다.
 console.log('s는 "a B z", n은 4인 경우: ' + caesar("a B z", 4));
