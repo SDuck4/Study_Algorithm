@@ -1,4 +1,5 @@
 /*
+    https://programmers.co.kr/learn/challenge_codes/27
     야근 지수
     회사원인 수민이는 많은 일이 쌓여 있습니다.
     수민이는 야근을 최소화하기 위해 남은 일의 작업량을 숫자로 메기고,
@@ -12,9 +13,19 @@
     야근 지수는 22 + 22 + 22 = 12가 되어 12를 반환해 줍니다.
 */
 
+// 야근 지수 최소화 함수
 function noOvertime(no, works) {
-	var result = 0;
-	// 야근 지수를 최소화 하였을 때의 야근 지수는 몇일까요?
-
-	return result;
+    // 작업시간 남은 만큼 일하자
+    while (no > 0) {
+        // 작업량 정렬, 내림차순
+        works = works.sort((a, b) => b - a);
+        // 가장 작업량이 큰 업무 작업
+        works[0]--;
+        // 작업시간 감소
+        no--;
+    }
+    // 야근 지수 계산
+    return works.reduce((p, c) => p + c * c, 0);
 }
+
+console.log(noOvertime(4, [4, 3, 3]));
