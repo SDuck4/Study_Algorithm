@@ -20,9 +20,35 @@
     리턴값은 [ [1,2], [1,3], [2,3] ]입니다.
 */
 
-function hanoi(n) {
-    var answer = [[]];
-    return answer;
+// 하노이 탑 과정을 반환하는 함수
+// n: 타겟 원판, 이동하고자 하는 원판
+// from: 현재 기둥, 원판의 현재 위치한 기둥
+// to: 목표 기둥, 원판을 이동시킬 기둥
+// other: 나머지 기둥
+function hanoi(n, from, to, other) {
+    // 이동 과정이 저장되는 배열
+    var arrMove = [];
+    // 첫 호출인 경우, 매개변수 셋팅
+    if (from == null) {
+        from = 1;
+        to = 3;
+        other = 2;
+    }
+    // 타겟 원판이 가장 작은 원판인 경우 : 이동만 함
+    if (n == 1) {
+        arrMove.push([from, to]);
+    }
+    // 가장 작은 원판이 아닌 경우
+    else {
+        // 작은 원판들을 나머지 기둥으로 옮김
+        arrMove = arrMove.concat(hanoi(n - 1, from, other, to));
+        // 타겟 원판 이동
+        arrMove.push([from, to]);
+        // 작은 원판들을 다시 원판 위로 옮김
+        arrMove = arrMove.concat(hanoi(n - 1, other, to, from));
+    }
+    // 이동 과정 반환
+    return arrMove;
 }
 
-console.log(hanoi(2));
+console.log(hanoi(3));
