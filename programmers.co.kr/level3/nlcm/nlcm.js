@@ -8,10 +8,41 @@
     예를들어 [2,6,8,14] 가 입력된다면 168을 반환해 주면 됩니다.
 */
 
-function nlcm(num) {
-    var answer = 0;
+// 최대공약수 구하기
+var memoryGcd = {}; // 메모리제이션
+function gcd(a, b) {
+    var args = [];
+    for (var i in arguments) {
+        args.push(arguments[i]);
+    }
+    var input = args.sort().join();
+    if (memoryGcd[input]) {
+        return memoryGcd[input];
+    }
+    var result = b ? gcd(b, a % b) : Math.abs(a);
+    memoryGcd[input] = result;
+    return result;
+}
 
-    return answer;
+// 최소공배수 구하기
+var memoryLcm = {}; // 메모리제이션
+function lcm(a, b) {
+    var args = [];
+    for (var i in arguments) {
+        args.push(arguments[i]);
+    }
+    var input = args.sort().join();
+    if (memoryLcm[input]) {
+        return memoryLcm[input];
+    }
+    var result = (a * b) / gcd(a, b);
+    memoryLcm[input] = result;
+    return result;
+}
+
+// n개의 최소공배수 구하기
+function nlcm(num) {
+    return num.reduce((p, c) => lcm(p, c), 1);
 }
 
 console.log(nlcm([2, 6, 8, 14]));
