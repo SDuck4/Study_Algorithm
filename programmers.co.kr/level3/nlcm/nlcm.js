@@ -9,7 +9,7 @@
 */
 
 // 최대공약수 구하기
-var memoryGcd = {}; // 메모리제이션
+var memoryGcd = {}; // 메모이제이션
 function gcd(a, b) {
     var args = [];
     for (var i in arguments) {
@@ -25,7 +25,7 @@ function gcd(a, b) {
 }
 
 // 최소공배수 구하기
-var memoryLcm = {}; // 메모리제이션
+var memoryLcm = {}; // 메모이제이션
 function lcm(a, b) {
     var args = [];
     for (var i in arguments) {
