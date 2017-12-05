@@ -10,9 +10,20 @@
 */
 
 function bestSet(n, s) {
+    if (n > s) {
+        return [-1];
+    }
+    var dividend = parseInt(s / n);
+    var remainder = s - dividend * n;
     var answer = [];
-
+    for (var i = 0; i < n; i++) {
+        if (i < remainder) {
+            answer.unshift(dividend + 1);
+        } else {
+            answer.unshift(dividend);
+        }
+    }
     return answer;
 }
 
-console.log(bestSet(3, 13));
+console.log(bestSet(9, 89));
