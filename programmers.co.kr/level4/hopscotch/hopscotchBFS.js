@@ -16,20 +16,17 @@
 */
 
 function hop(board, step) {
-    var rowSize = board.length;
-    var colSize = board[0].length;
     var lastCol = -1;
     if (step.length > 0) {
         lastCol = step[step.length - 1];
     }
     var newSteps = [];
-    for (var i = 0; i < colSize; i++) {
-        if (i == lastCol) {
-            continue;
+    for (var i = 0; i < 4; i++) {
+        if (i != lastCol) {
+            var newStep = step.slice();
+            newStep.push(i);
+            newSteps.push(newStep);
         }
-        var newStep = step.slice();
-        newStep.push(i);
-        newSteps.push(newStep);
     }
     return newSteps;
 }

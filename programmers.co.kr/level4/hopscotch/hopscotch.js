@@ -15,11 +15,61 @@
     hopscotch 함수에서는 16을 반환해주면 됩니다.
 */
 
-function hopscotch(board, size) {
-    var result = 0;
-
-    return result;
+function hop(board, step) {
+    var nextRow = board[step.length];
+    var colSize = nextRow.length;
+    var lastCol = -1;
+    if (step.length > 0) {
+        lastCol = step[step.length - 1];
+    }
+    var newSteps = [];
+    var nextRowSorted = nextRow.slice().sort((a, b) => b - a);
+    for (var i = 0; i < 2; i++) {
+        var newStep = step.slice();
+        if (nextRow.indexOf(nextRowSorted[i]) == lastCol) {
+            newStep.push(nextRow.indexOf(nextRowSorted[i + 1]));
+        } else {
+            newStep.push(nextRow.indexOf(nextRowSorted[i]));
+        }
+        newSteps.push(newStep);
+    }
+    return newSteps;
 }
 
-var board = [[1, 2, 3, 5], [5, 6, 7, 8], [4, 3, 2, 1]];
+function getScore(board, step) {
+    var score = 0;
+    for (var i = 0; i < step.length; i++) {
+        score += board[i][step[i]];
+    }
+    return score;
+}
+
+function hopscotch(board, size) {
+    var maxScore = 0;
+    var doingSteps = [[]];
+    var doneSteps = [];
+    while (doingSteps.length > 0) {
+        var nowStep = doingSteps.shift();
+        var nextSteps = hop(board, nowStep);
+        if (nowStep.length + 1 == size) {
+            doneSteps = doneSteps.concat(nextSteps);
+        } else {
+            doingSteps = doingSteps.concat(nextSteps);
+        }
+    }
+    for (var i = 0; i < doneSteps.length; i++) {
+        var doneStep = doneSteps[i];
+        var score = getScore(board, doneStep);
+        if (score > maxScore) {
+            maxScore = score;
+        }
+    }
+    return maxScore;
+}
+
+var board = [
+    [1, 2, 3, 5],
+    [5, 6, 7, 8],
+    [4, 3, 2, 1]
+];
 console.log(hopscotch(board, 3));
