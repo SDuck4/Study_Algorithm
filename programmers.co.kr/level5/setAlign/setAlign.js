@@ -16,9 +16,34 @@
     예를 들어 setAlign(3,5)를 입력받는다면 [3,1,2]를 리턴해주면 됩니다.
 */
 
-function setAlign(n, k) {
-    var answer = [];
+// 팩토리얼 함수 메모이제이션
+var memoryFactorial = {
+    0: 1,
+    1: 1
+};
 
+// 팩토리얼 함수
+function factorial(n) {
+    if (memoryFactorial[n] == undefined) {
+        memoryFactorial[n] = n * factorial(n - 1);
+    }
+    return memoryFactorial[n];
+}
+
+function setAlign(n, k) {                           // n: 줄 세울 숫자 갯수, k: k번째 줄 세우는 방법
+    var arrNum = [];                                // 줄 세울 숫자들이 담겨있는 배열
+    for (var i = 1; i <= n; i++) {                  // 배열에 숫자들을 넣어줌
+        arrNum.push(i);
+    }
+    var answer = [];                                // 답이 들어갈 배열, 각 위치를 자릿수로 생각합시다.
+    k--;                                            // 방법이 0부터 시작되도록
+    while (arrNum.length > 0) {                     // k번째 방법일 때, 앞에서 부터 계산해봅시다
+        var i = Math.floor(k / factorial(n - 1));
+        k = k - (i * factorial(n - 1));
+        n--;
+        answer.push(arrNum[i]);
+        arrNum.splice(i, 1);
+    }
     return answer;
 }
 
