@@ -15,12 +15,20 @@
 */
 
 function chooseCity(n, city) {
-    var answer = 0;
-
-    return answer;
+    city.sort((a, b) => a[0] - b[0]);           // city 위치 기준으로 오름차순 정렬
+    var sumPeople = city.reduce((p, c) => {     // 인구수 총합 계산
+        return p + c[1];
+    }, 0);
+    var accPeople = 0;                          // 인구수 누적변수
+    for (var i = 0; i < n; i++) {               // city 순회
+        accPeople += city[i][1];                // 인구수 누적
+        if (accPeople >= (sumPeople / 2)) {     // 인구수 누적이 총합의 반 이상이면
+            return city[i][0];                  // 현재 도시의 위치 반환
+        }
+    }
 }
 
 var tA = 3,
-    tCity = [[1, 5], [2, 2], [3, 3]];
+    tCity = [[2, 2], [1, 5], [3, 3]];
 
 console.log(chooseCity(tA, tCity));
