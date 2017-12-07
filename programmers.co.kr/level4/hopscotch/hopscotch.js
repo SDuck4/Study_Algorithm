@@ -15,55 +15,44 @@
     hopscotch 함수에서는 16을 반환해주면 됩니다.
 */
 
-function hop(board, step) {
-    var nextRow = board[step.length];
-    var colSize = nextRow.length;
-    var lastCol = -1;
-    if (step.length > 0) {
-        lastCol = step[step.length - 1];
-    }
-    var newSteps = [];
-    var nextRowSorted = nextRow.slice().sort((a, b) => b - a);
-    for (var i = 0; i < 2; i++) {
-        var newStep = step.slice();
-        if (nextRow.indexOf(nextRowSorted[i]) == lastCol) {
-            newStep.push(nextRow.indexOf(nextRowSorted[i + 1]));
-        } else {
-            newStep.push(nextRow.indexOf(nextRowSorted[i]));
-        }
-        newSteps.push(newStep);
-    }
-    return newSteps;
-}
-
-function getScore(board, step) {
-    var score = 0;
-    for (var i = 0; i < step.length; i++) {
-        score += board[i][step[i]];
-    }
-    return score;
-}
-
 function hopscotch(board, size) {
     var maxScore = 0;
     var doingSteps = [[]];
     var doneSteps = [];
-    while (doingSteps.length > 0) {
-        var nowStep = doingSteps.shift();
-        var nextSteps = hop(board, nowStep);
-        if (nowStep.length + 1 == size) {
-            doneSteps = doneSteps.concat(nextSteps);
-        } else {
-            doingSteps = doingSteps.concat(nextSteps);
+
+    function hop(step) {
+        var lastCol = -1;
+        if (step.length > 0) {
+            lastCol = step[step.length - 1];
+        }
+        for (var i = 0; i < 4; i++) {
+            if (i != lastCol) {
+                var newStep = step.slice();
+                newStep.push(i);
+                doingSteps.push(newStep);
+            }
         }
     }
+
+    while (doingSteps.length > 0) {
+        var nowStep = doingSteps.shift();
+        if (nowStep.length == size) {
+            doneSteps.push(nowStep);
+        } else {
+            hop(nowStep);
+        }
+    }
+
     for (var i = 0; i < doneSteps.length; i++) {
         var doneStep = doneSteps[i];
-        var score = getScore(board, doneStep);
+        var score = doneStep.reduce((p, c, i) => {
+            return p + board[i][c];
+        }, 0);
         if (score > maxScore) {
             maxScore = score;
         }
     }
+
     return maxScore;
 }
 
