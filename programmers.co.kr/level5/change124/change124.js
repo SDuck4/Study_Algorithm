@@ -14,11 +14,17 @@
     리턴 타입은 문자열입니다.
 */
 
+// 124로 숫자 표현
 function change124(n) {
-    var answer = "0";
-
+    var answer = '';                        // 답, 문자열
+    var arrNum = ['1', '2', '4'];           // 표현에 사용되는 숫자들
+    do {
+        n--;                                // 0~2 범위를 1~3 범위로 바꾸기 위해
+        var remain = n % 3;                 // 3진수 변환, 나머지 구하기
+        n = parseInt(n / 3);                // 나누기 몫은 다시 n으로
+        answer = arrNum[remain] + answer;   // 답의 앞에 arrNum을 참조하여 숫자 추가
+    } while (n > 0)                         // n이 0보다 클 때가지 반복
     return answer;
 }
 
-// 아래는 테스트로 출력해 보기 위한 코드입니다.
 console.log(change124(10));
