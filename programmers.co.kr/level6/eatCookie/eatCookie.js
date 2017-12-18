@@ -13,9 +13,32 @@
 */
 
 function eatCookie(cookies) {
-    var answer = 0;
+    var stepDoing = [[]];                   // BFS 탐색의 스탭들이 저장되는 배열(큐)
+    var answer = 0;                         // 가장 많이 먹을 수 있는 방법
+    var lengthCookies = cookies.length;     // cookies 길이, for문을 위해 미리 저장해둠
 
-    return answer;
+    while (stepDoing.length > 0) {          // BFS 탐색 시작
+        var step = stepDoing.shift();       // 현재 스탭
+        var stepNext = [];                  // 다음 스탭이 저장될 배열
+        var lastEatIndex = step.length == 0 ? 0 : step[step.length - 1];    // 마지막으로 먹은 쿠키의 인덱스
+        var lastEatCookie = step.length == 0 ? 0 : cookies[lastEatIndex];   // 마지막으로 먹은 쿠키의 맛
+        for (var i = lastEatIndex; i < lengthCookies; i++) {    // 마지막 인덱스 부터 쿠키 탐색
+            if (cookies[i] > lastEatCookie) {   // 마지막 쿠키보다 맛있으면
+                var newStep = step.slice();     // 현재 스탭 복사
+                newStep.push(i);                // 더 맛있는 쿠키를 먹자
+                stepNext.push(newStep);         // 다음 스탭에 추가
+            }
+        }
+        if (stepNext.length == 0) {         // 현재 스탭에서 더 분기할 수 없으면
+            if (answer < step.length) {     // 가장 많이 먹을 수 있는 방법인지 확인
+                answer = step.length;       // 맞으면 저장
+            }
+        } else {
+            stepDoing = stepDoing.concat(stepNext);     // 분기한 스탭을 탐색 큐에 추가
+        }
+    }
+
+    return answer;      // 가장 많이 먹을 수 있는 방법 반환
 }
 
 console.log(eatCookie([1, 4, 2, 6, 3, 4, 1, 5]));
