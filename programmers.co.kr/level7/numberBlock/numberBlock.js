@@ -16,9 +16,10 @@
 */
 
 function numberBlock(begin, end) {
-	var answer = [];
+    var answer = [];
 
-	return answer;
+    return answer;
 }
 
+console.log(numberBlock(1, 10));
 console.log(numberBlock(99999999999990, 100000000000000))
