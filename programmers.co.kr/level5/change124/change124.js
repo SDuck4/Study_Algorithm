@@ -1,4 +1,5 @@
 /*
+    https://programmers.co.kr/learn/challenge_codes/48
     1,2,4 세 개의 숫자만 쓰는 124나라가 있습니다.
     124나라에서 사용하는 숫자는 다음과 같이 변환됩니다.
     10진법의 1 → 1
