@@ -21,6 +21,10 @@
 ### Week03 2017-12-21
 1. [124나라의 숫자](programmers.co.kr/level5/change124/change124.js)
 2. [2xn 타일링](programmers.co.kr/level5/tiling/tiling.js)
-3. [과자 많이 먹기](programmers.co.kr/level6/eatCookie.js)
+3. [과자 많이 먹기](programmers.co.kr/level6/eatCookie/eatCookie.js)
+### Week04 2017-12-28
+1. [행렬의 덧셈](programmers.co.kr/level1/sumMatrix/sumMatrix.js)
+2. [행렬의 곱셈](programmers.co.kr/level2/productMatrix/productMatrix.js)
+3. [거스름돈](programmers.co.kr/level6/change/change.js)
 ## 참고 사이트
 1. [프로그래머스](https://programmers.co.kr/)
