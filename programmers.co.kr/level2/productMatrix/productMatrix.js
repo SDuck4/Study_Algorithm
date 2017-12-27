@@ -7,9 +7,26 @@
 */
 
 function productMatrix(A, B) {
-    
+    var C = [];                                 // 결과 행렬 C
+    var rowLength = A.length;                   // 행의 크기: A의 행
+    var colLength = B[0].length;                // 열의 크기: B의 열
+    for (var row = 0; row < rowLength; row++) {             // 행 순회
+        C[row] = [];                                        // 결과행렬의 행에 열(배열) 추가
+        for (var col = 0; col < colLength; col++) {         // 열 순회
+            C[row][col] = A[row].reduce((p, c, i) => {
+                return p + c * B[i][col];       // C[행][열] = (A의 행 * B의 열)의 합
+            }, 0);
+        }
+    }
+    return C;
 }
 
-var a = [ [1,2],[4,5] ];
-var b = [ [1,2],[4,5] ];
+var a = [
+    [1, 2],
+    [4, 5]
+];
+var b = [
+    [1, 2],
+    [4, 5]
+];
 console.log(productMatrix(a, b));
