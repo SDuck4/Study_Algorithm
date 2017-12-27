@@ -7,9 +7,7 @@
 */
 
 function productMatrix(A, B) {
-	var answer = Array();
-
-	return answer;
+    
 }
 
 var a = [ [1,2],[4,5] ];
