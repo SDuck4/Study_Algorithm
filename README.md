@@ -18,5 +18,9 @@
 4. [땅따먹기 게임](programmers.co.kr/level4/hopscotch/hopscotch.js)
 5. [공항 건설하기](programmers.co.kr/level4/chooseCity/chooseCity.js)
 6. [줄 서는 방법](programmers.co.kr/level5/setAlign/setAlign.js)
+### Week03 2017-12-21
+1. [124나라의 숫자](programmers.co.kr/level5/change124/change124.js)
+2. [2xn 타일링](programmers.co.kr/level5/tiling/tiling.js)
+3. [과자 많이 먹기](programmers.co.kr/level6/eatCookie.js)
 ## 참고 사이트
 1. [프로그래머스](https://programmers.co.kr/)
