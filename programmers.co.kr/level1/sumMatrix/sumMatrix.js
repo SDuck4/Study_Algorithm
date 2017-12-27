@@ -7,10 +7,17 @@
     (어떠한 행렬에도 대응하는 함수를 완성해주세요.)
 */
 
-function sumMatrix(A,B){
-    var answer = Array();
-
-    return answer;
+function sumMatrix(A, B) {
+    var result = [];                            // 결과 행렬
+    var rowLength = A.length;                   // 행
+    var colLength = A[0].length;                // 열
+    for (var row = 0; row < rowLength; row++) {             // 행 순회
+        result[row] = [];                                   // 결과행렬의 행에 열(배열) 추가
+        for (var col = 0; col < colLength; col++) {         // 열 순회
+            result[row][col] = A[row][col] + B[row][col];   // A와 B의 각 행, 열 더해줌
+        }
+    }
+    return result;
 }
 
 console.log(sumMatrix([[1,2], [2,3]], [[3,4],[5,6]]));
