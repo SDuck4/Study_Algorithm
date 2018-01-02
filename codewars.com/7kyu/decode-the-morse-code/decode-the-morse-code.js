@@ -60,7 +60,17 @@ const MORSE_CODE = {
 };
 
 function decodeMorse(morseCode) {
-
+    let cntSpace = 0;
+    return morseCode.trim().split(' ').reduce((p, c) => {
+        if (c === '') {
+            cntSpace++;
+            if (cntSpace === 2) p += ' ';
+        } else {
+            cntSpace = 0;
+            p += MORSE_CODE[c];
+        }
+        return p;
+    }, '');
 }
 
 console.log(decodeMorse('.... . -.--   .--- ..- -.. .'), 'HEY JUDE');
