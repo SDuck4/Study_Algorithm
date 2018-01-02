@@ -7,5 +7,8 @@
 */
 
 function getCount(str) {
-
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+    return str.split('').reduce((p, c) => vowels.indexOf(c) >= 0 ? p + 1 : p, 0);
 }
+
+console.log(getCount("abracadabra"), 5);
