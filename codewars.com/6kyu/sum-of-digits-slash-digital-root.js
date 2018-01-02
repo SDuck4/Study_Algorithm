@@ -36,5 +36,20 @@
 */
 
 function digital_root(n) {
-
+    var sum = 0;
+    while (n > 10) {
+        while (n != 0) {
+            sum += n % 10;
+            n = Math.floor(n / 10);
+        }
+        if (sum < 10) break;
+        n = sum;
+        sum = 0;
+    }
+    return sum;
 }
+
+console.log(digital_root(16), 7);
+console.log(digital_root(942), 6);
+console.log(digital_root(132189), 6);
+console.log(digital_root(493193), 2);
