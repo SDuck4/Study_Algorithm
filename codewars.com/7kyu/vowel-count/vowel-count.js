@@ -1,9 +1,8 @@
 /*
     https://www.codewars.com/kata/vowel-count
-
-    Return the number (count) of vowels in the given string.
-    We will consider a, e, i, o, and u as vowels for this Kata.
-    The input string will only consist of lower case letters and/or spaces.
+    주어진 문자열에서 모음의 갯수를 반환하세요.
+    이 카타에서 모음은 a, e, i, o, u 를 말합니다.
+    입력 문자열은 소문자만 있고, 빈칸(스페이스)이 있을 수 있습니다.
 */
 
 function getCount(str) {

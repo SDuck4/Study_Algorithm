@@ -1,33 +1,39 @@
 /*
     https://www.codewars.com/kata/decode-the-morse-code
 
-    In this kata you have to write a simple Morse code decoder.
-    While the Morse code is now mostly superceded by voice and digital data communication channels, it still has its use in some applications around the world.
-    The Morse code encodes every character as a sequence of "dots" and "dashes".
-    For example, the letter A is coded as ·−, letter Q is coded as −−·−, and digit 1 is coded as ·−−−.
-    The Morse code is case-insensitive, traditionally capital letters are used.
-    When the message is written in Morse code, a single space is used to separate the character codes and 3 spaces are used to separate words.
-    For example, the message HEY JUDE in Morse code is ···· · −·−−   ·−−− ··− −·· ·.
+    이 카타에서 당신은 간단한 모스부호 디코더를 만들어야 합니다.
+    요즘에는 대부분 음성이나 디지털 신호로 대체되었지만, 모스부호는 전세계적으로 몇몇 곳에서 여젼히 사용되고 있습니다.
+    모스부호는 모든 문자를 연속적인 "점"과 "대시"로 인코딩합니다.
+    예를 들어, A는 ·−, Q는 −−·−, 숫자 1은 ·−−− 로 인코딩됩니다.
+    또한 대소문자 구분을 하지않고, 전통적으로 대문자로 사용됩니다.
+    모스부호로 메시지를 작성할 때, 공백 1개는 부호를 구분하기 위해 사용되고, 공백 3개는 단어를 구분하기 위해 사용합니다.
+    예를 들어, HEY JUDE 는 모스부호로 ···· · −·−−   ·−−− ··− −·· · 입니다.
 
-    NOTE: Extra spaces before or after the code have no meaning and should be ignored.
+    메모: 메시지 앞뒤의 공백은 의미가 없으니 무시해야 합니다.
 
-    In addition to letters, digits and some punctuation, there are some special service codes, the most notorious of those is the international distress signal SOS (that was first issued by Titanic), that is coded as ···−−−···.
-    These special codes are treated as single special characters, and usually are transmitted as separate words.
+    글자, 숫자, 문장부호 뿐만 아니라 모스부호에는 몇가지 특수코드가 있습니다.
+    그중 가장 유명한 코드인 국제 조난 신호 SOS는 ···−−−··· 입니다. (타이타닉을 통해 잘 알려져 있죠)
+    이런 특수코드는 하나의 특수한 문자로 간주하며, 하나의 단어로 분리해 전송해야합니다.
 
-    Your task is to implement a function decodeMorse(morseCode), that would take the morse code as input and return a decoded human-readable string.
+    당신의 과제는 모스부호를 입력받아 사람이 읽을 수 있는 문자열로 반환해주는 함수 decodeMorse(morseCode) 를 구현하는 것입니다.
 
-    For example:
+    예시:
     decodeMorse('.... . -.--   .--- ..- -.. .')
-    //should return "HEY JUDE"
+    // 문자열 "HEY JUDE" 를 반환해야 합니다
 
-    The Morse code table is preloaded for you as a dictionary, feel free to use it.
-    In CoffeeScript, C++, Go, JavaScript, PHP, Python, Ruby and TypeScript, the table can be accessed like this: MORSE_CODE['.--'], in Java it is MorseCode.get('.--'), in C# it is MorseCode.Get('.--'), in Haskell the codes are in a Map String String and can be accessed like this: morseCodes ! ".--", in Elixir it is morse_codes variable.
+    모스부호표는 자유롭게 사용할 수 있게 딕셔너리 형태로 제공됩니다.
+    CoffeeScript, C++, Go, JavaScript, PHP, Python, Ruby, TypeScript : MORSE_CODE['.--']
+    Java : MorseCode.get('.--')
+    C# : MorseCode.Get('.--')
+    Haskell : morseCodes ! ".--"
+    Elixir : morse_codes
 
-    All the test strings would contain valid Morse code, so you may skip checking for errors and exceptions. In C#, tests will fail if the solution code throws an exception, please keep that in mind. This is mostly because otherwise the engine would simply ignore the tests, resulting in a "valid" solution.
+    모든 테스트케이스는 유효한 케이스이므로, 에러나 예외처리는 생략하셔도 됩니다.
+    C# 에서는 정답 코드가 예외를 던지면 테스트가 실패하므로 주의해주세요.
 
-    Good luck!
+    행운을 빕니다!
 
-    After you complete this kata, you may try yourself at Decode the Morse code, advanced.
+    이 카타를 완료한 다음, '모스부호 디코드 고급' 카타도 도전해보세요.
 */
 
 const MORSE_CODE = {
