@@ -13,8 +13,30 @@
     문제이해가 어려우면 2 x n 타일링 문제를 먼저 풀어 보세요.
 */
 
-function tiling(n) {
+const memoryTiling = {
+    0: 1,
+    2: 3
+};
 
+function tiling(n) {
+    if (n % 2 == 1) {
+        return 0;
+    }
+    if (memoryTiling[n] == undefined) {
+        var newValue = (4 * tiling(n - 2) + 100000) - tiling(n - 4);
+        // var newValue = tiling(2) * tiling(n - 2) + tiling(n - 2) - tiling(n - 4);
+        if (newValue >= 100000) {
+            newValue %= 100000;
+        }
+        memoryTiling[n] = newValue;
+    }
+    return memoryTiling[n];
 }
 
 console.log(tiling(2), 3);
+console.log(tiling(4), 11);
+console.log(tiling(6), 41);
+console.log(tiling(8), 153);
+console.log(tiling(10), 571);
+console.log(tiling(12), 2131);
+console.log(tiling(14), 7953);
