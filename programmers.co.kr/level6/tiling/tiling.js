@@ -13,23 +13,28 @@
     문제이해가 어려우면 2 x n 타일링 문제를 먼저 풀어 보세요.
 */
 
+// 메모이제이션
 const memoryTiling = {
     0: 1,
     2: 3
 };
 
 function tiling(n) {
+    // 홀수일 때, 배치 불가
     if (n % 2 == 1) {
         return 0;
     }
+    // 메모리에 없으면
     if (memoryTiling[n] == undefined) {
-        var newValue = (4 * tiling(n - 2) + 100000) - tiling(n - 4);
-        // var newValue = tiling(2) * tiling(n - 2) + tiling(n - 2) - tiling(n - 4);
-        if (newValue >= 100000) {
-            newValue %= 100000;
+        // 점화식으로 계산
+        var newValue = (4 * tiling(n - 2) + 100000) - tiling(n - 4);    // 10만 더해주는것은 자리수 커팅 보정
+        if (newValue >= 100000) {   // 맨 끝자리 5자리 커팅
+            newValue %= 100000;     // 10만(6자리)으로 나눈 나머지 값
         }
+        // 메모리에 계산한 값 저장
         memoryTiling[n] = newValue;
     }
+    // 결과 반환
     return memoryTiling[n];
 }
 
