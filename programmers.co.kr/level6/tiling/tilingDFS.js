@@ -14,40 +14,54 @@
 */
 
 function tiling(n) {
-    var stepDoing = [];
-    var stepDone = [];
-    var stepMemory = {};
+    // 홀수일 때, 배치 불가
+    if (n % 2 == 1) {
+        return 0;
+    }
 
+    var stepDoing = [];     // DFS, 스택
+    var stepDone = [];      // 완료상태 배열
+    var stepMemory = {};    // 중복 체크
+
+    // 초기상태 정의
     var stepStart = ['', '', '', [0, 0, 0]];
     stepDoing.push(stepStart);
 
+    // 탐색
     while (stepDoing.length > 0) {
-        var step = stepDoing.shift();
+        var step = stepDoing.pop();
         
-        if (step[3][0] == n && step[3][1] == n && step[3][2] == n) {
-            stepDone.push(step);
+        // 완료 조건
+        if (step[3][0] == n && step[3][1] == n && step[3][2] == n) {    // 3라인 모두 꽉 참
+            stepDone.push(step);    // 완료상태 배열에 넣음
             continue;
         }
         
-        var stepStr = JSON.stringify(step);
+        // 분기
+        var stepStr = JSON.stringify(step);     // 복사에 자주 사용되어 미리 정의해놓음
         for (var i = 0; i < 3; i++) {
-            if (step[3][i] + 2 <= n) {
+            // 가로로 넣기
+            if (step[3][i] + 2 <= n) {  // 가로로 넣을 공간이 있는지 확인
                 var nextStep = JSON.parse(stepStr);
                 nextStep[i] += '2';
                 nextStep[3][i] += 2;
                 var nextStepStr = JSON.stringify(nextStep);
+                // 중복체크
                 if (stepMemory[nextStepStr] == undefined) {
                     stepMemory[nextStepStr] = true;
                     stepDoing.push(nextStep);
                 }
             }
-            if (i < 2 && step[3][i] + 1 <= n && step[3][i] == step[3][i + 1]) {
+            // 세로로 넣기
+            if (i < 2 && step[3][i] + 1 <= n && // 세로로 넣을 공간 확인
+                step[3][i] == step[3][i + 1]) { // 두 라인의 높이가 같아야 함
                 var nextStep = JSON.parse(stepStr);
                 nextStep[i] += '1';
                 nextStep[3][i] += 1;
                 nextStep[i + 1] += '1';
                 nextStep[3][i + 1] += 1;
                 var nextStepStr = JSON.stringify(nextStep);
+                // 중복체크
                 if (stepMemory[nextStepStr] == undefined) {
                     stepMemory[nextStepStr] = true;
                     stepDoing.push(nextStep);
