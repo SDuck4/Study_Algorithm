@@ -31,6 +31,10 @@
 2. [Vowel Count](codewars.com/7kyu/vowel-count/vowel-count.js)
 3. [Decode the Morse code](codewars.com/7kyu/decode-the-morse-code/decode-the-morse-code.js)
 4. [Sum of Digits / Digital Root](codewars.com/6kyu/sum-of-digits-slash-digital-root/sum-of-digits-slash-digital-root.js)
+### Week06 2018-01-11
+1. [Equal Sides Of An Array](codewars.com/6kyu/equal-sides-of-an-array/equal-sides-of-an-array.js)
+2. [Valid Parentheses](codewars.com/5kyu/valid-parentheses/valid-parentheses.js)
+3. [Decode the Morse code, advanced](codewars.com/4kyu/decode-the-morse-code-advanced/decode-the-morse-code-advanced.js)
 ## 참고 사이트
 1. [프로그래머스](https://programmers.co.kr/)
 2. [Codewars](https://www.codewars.com/)
