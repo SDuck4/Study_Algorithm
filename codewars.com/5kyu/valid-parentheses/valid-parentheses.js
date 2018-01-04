@@ -6,7 +6,19 @@
 */
 
 function validParentheses(parens){
-
+    var parenDepth = 0;
+    var parensLength = parens.length;
+    for (var i = 0; i < parensLength; i++) {
+        if (parens[i] == '(') {
+            parenDepth++;
+        } else if (parens[i] == ')') {
+            parenDepth--;
+        }
+        if (parenDepth < 0) {
+            return false;
+        }
+    }
+    return parenDepth == 0 ? true : false;
 }
 
 console.log(validParentheses('()'), true);
