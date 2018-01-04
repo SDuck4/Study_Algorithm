@@ -6,8 +6,11 @@
 */
 
 function getCount(str) {
-    const vowels = ['a', 'e', 'i', 'o', 'u'];
-    return str.split('').reduce((p, c) => vowels.indexOf(c) >= 0 ? p + 1 : p, 0);
+    const vowels = ['a', 'e', 'i', 'o', 'u'];       // 모음 배열
+    return str.split('')                            // 문자열 -> 한 글자씩 쪼개진 문자열 배열
+    .reduce((p, c) => {
+        return vowels.indexOf(c) >= 0 ? p + 1 : p;  // 현재 글자가 모음 배열에 있으면 1 증가
+    }, 0);
 }
 
 console.log(getCount("abracadabra"), 5);
