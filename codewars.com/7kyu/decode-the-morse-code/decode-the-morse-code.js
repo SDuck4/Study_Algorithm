@@ -36,6 +36,7 @@
     이 카타를 완료한 다음, '모스부호 디코드 고급' 카타도 도전해보세요.
 */
 
+// 모스부호 딕셔너리
 const MORSE_CODE = {
     '.-': 'A',
     '-...': 'B',
@@ -66,17 +67,20 @@ const MORSE_CODE = {
 };
 
 function decodeMorse(morseCode) {
-    let cntSpace = 0;
-    return morseCode.trim().split(' ').reduce((p, c) => {
-        if (c === '') {
+    let cntSpace = 0;                       // 공백 카운트
+    return morseCode.trim()                 // 입력 문자열 앞뒤의 공백 제거
+    .split(' ')                             // 입력 문자열 공백 하나로 쪼갬
+    .reduce((p, c) => {
+        if (c === '') {                     // 공백으로 쪼갯기 때문에 원래 공백이면 빈 문자열이 됨
             cntSpace++;
-            if (cntSpace === 2) p += ' ';
+            if (cntSpace === 2) p += ' ';   // 빈 문자열 연속 2번 등장 -> 원래 공백 3개 -> 결과에 공백 추가
         } else {
-            cntSpace = 0;
-            p += MORSE_CODE[c];
+            cntSpace = 0;                   // 공백 카운트 초기화
+            p += MORSE_CODE[c];             // 모스부호 딕셔너리 참조해 결과에 글자 추가
         }
         return p;
     }, '');
 }
 
 console.log(decodeMorse('.... . -.--   .--- ..- -.. .'), 'HEY JUDE');
+// morseCode.split(' ') => ['....', '.', '-.--', '', '', '.---', '..-', '-..', '.']
