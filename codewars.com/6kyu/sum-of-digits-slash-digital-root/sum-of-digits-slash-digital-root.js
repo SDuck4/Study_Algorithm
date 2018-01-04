@@ -36,15 +36,15 @@
 */
 
 function digital_root(n) {
-    var sum = 0;
-    while (n > 10) {
-        while (n != 0) {
-            sum += n % 10;
-            n = Math.floor(n / 10);
+    var sum = 0;                    // 합을 저장하는 변수
+    while (n > 10) {                // 두 자릿수 이상이면 반복
+        while (n != 0) {            // n의 각 자릿수를 더하는 반복문
+            sum += n % 10;          // n의 1의 자릿수를 가져와 합에 더함
+            n = Math.floor(n / 10); // 10으로 나눠 n의 1의 자릿수를 없앰
         }
-        if (sum < 10) break;
-        n = sum;
-        sum = 0;
+        if (sum < 10) break;        // 합이 한 자릿수면 종료
+        n = sum;                    // 한 자릿수가 아니면 합을 새로운 n 으로
+        sum = 0;                    // 합은 다시 사용하기 위해 초기화
     }
     return sum;
 }
