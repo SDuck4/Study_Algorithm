@@ -26,12 +26,12 @@
 1. [행렬의 덧셈](programmers.co.kr/level1/sumMatrix/sumMatrix.js)
 2. [행렬의 곱셈](programmers.co.kr/level2/productMatrix/productMatrix.js)
 3. [거스름돈](programmers.co.kr/level6/change/change.js)
-### Week05 2018-01-04
+### Week05 2018-01-11
 1. [3xn 타일링](programmers.co.kr/level6/tiling/tiling.js)
 2. [Vowel Count](codewars.com/7kyu/vowel-count/vowel-count.js)
 3. [Decode the Morse code](codewars.com/7kyu/decode-the-morse-code/decode-the-morse-code.js)
 4. [Sum of Digits / Digital Root](codewars.com/6kyu/sum-of-digits-slash-digital-root/sum-of-digits-slash-digital-root.js)
-### Week06 2018-01-11
+### Week06 2018-01-18
 1. [Equal Sides Of An Array](codewars.com/6kyu/equal-sides-of-an-array/equal-sides-of-an-array.js)
 2. [Valid Parentheses](codewars.com/5kyu/valid-parentheses/valid-parentheses.js)
 3. [Decode the Morse code, advanced](codewars.com/4kyu/decode-the-morse-code-advanced/decode-the-morse-code-advanced.js)
