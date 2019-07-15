@@ -13,9 +13,30 @@
   각 지방에서 요청하는 예산이 담긴 배열 budgets과 총 예산 M이 매개변수로 주어질 때, 위의 조건을 모두 만족하는 상한액을 return 하도록 solution 함수를 작성해주세요.
 */
 
-function solution(budgets, M) {
-  var answer = 0;
-  return answer;
+function calcBudgets(budgets, limit) {
+  let sum = 0;
+  for (let i in budgets) {
+    let budget = budgets[i];
+    if (budget > limit) {
+      sum += limit;
+    } else {
+      sum += budget;
+    }
+  }
+  return sum;
 }
 
-console.log(solution([120, 110, 140, 150], 485));
+function solution(budgets, M) {
+  let limit = parseInt(M / budgets.length);
+  let total = limit * budgets.length;
+  while (total < M) {
+    limit += 1;
+    total = calcBudgets(budgets, limit);
+  }
+  if (total > M) {
+    limit -= 1;
+  }
+  return limit;
+}
+
+console.log(solution([120, 110, 140, 150], 485));   // 127
