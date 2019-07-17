@@ -4,7 +4,7 @@
 
 ### Week00 2017-11-23
 
-1. [피보나치 수](programmers.co.kr/level1/fibonacci/fibonacci.js)
+1. [피보나치 수](programmers.co.kr/level2/Fibonacci)
 2. [콜라츠 추측](programmers.co.kr/level2/collatz/collatz.js)
 3. [시저 암호](programmers.co.kr/level3/caesar/caesar.js)
 
