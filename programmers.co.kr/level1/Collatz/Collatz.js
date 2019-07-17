@@ -9,6 +9,6 @@ function solution(num) {
   return -1;                                // 500번 반복해도 1이 되지 않은 경우
 }
 
-console.log(solution(6));
-console.log(solution(16));
-console.log(solution(626331));
+console.log(solution(6));       // 8
+console.log(solution(16));      // 4
+console.log(solution(626331));  // -1
