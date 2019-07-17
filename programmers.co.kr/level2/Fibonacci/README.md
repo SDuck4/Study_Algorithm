@@ -21,10 +21,10 @@ https://programmers.co.kr/learn/courses/30/lessons/12945
 
 ## 입출력 예
 
-|n|return|
-|-|-|
-|3|2|
-|5|5|
+|  n  | return |
+| --- | ------ |
+| 3   | 2      |
+| 5   | 5      |
 
 ## 입출력 예 설명
 
