@@ -10,7 +10,7 @@
 
 ### Week01 2017-11-30
 
-1. [N개의 최소공배수](programmers.co.kr/level3/nlcm/nlcm.js)
+1. [N개의 최소공배수](programmers.co.kr/level2/NLCM)
 2. [멀리뛰기](programmers.co.kr/level3/jumpCase/jumpCase.js)
 3. [다음 큰 숫자](programmers.co.kr/level3/nextBigNumber/nextBigNumber.js)
 4. [야근 지수](programmers.co.kr/level3/noOvertime/noOvertime.js)
@@ -46,6 +46,7 @@
 4. [Sum of Digits / Digital Root](codewars.com/6kyu/sum-of-digits-slash-digital-root/sum-of-digits-slash-digital-root.js)
 
 ### Week06 2018-01-18
+
 1. [Equal Sides Of An Array](codewars.com/6kyu/equal-sides-of-an-array/equal-sides-of-an-array.js)
 2. [Valid Parentheses](codewars.com/5kyu/valid-parentheses/valid-parentheses.js)
 3. [Decode the Morse code, advanced](codewars.com/4kyu/decode-the-morse-code-advanced/decode-the-morse-code-advanced.js)
