@@ -12,7 +12,7 @@
 
 1. [N개의 최소공배수](programmers.co.kr/level2/NLCM)
 2. [멀리 뛰기](programmers.co.kr/level3/JumpCase)
-3. [다음 큰 숫자](programmers.co.kr/level3/nextBigNumber/nextBigNumber.js)
+3. [다음 큰 숫자](programmers.co.kr/level2/NextBigNumber)
 4. [야근 지수](programmers.co.kr/level3/noOvertime/noOvertime.js)
 5. [하노이의 탑](programmers.co.kr/level5/hanoi/hanoi.js)
 6. [최대공약수와 최소공배수](programmers.co.kr/level1/gcdlcm/gcdlcm.js)
