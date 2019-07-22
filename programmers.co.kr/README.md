@@ -12,6 +12,7 @@ https://programmers.co.kr
 
 ### Level 2
 
+- [가장 큰 정사각형 찾기](level2/FindLargestSquare)
 - [다음 큰 숫자](level2/NextBigNumber)
 - [숫자의 표현](level2/Expressions)
 - [피보나치 수](level2/Fibonacci)

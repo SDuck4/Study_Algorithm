@@ -21,7 +21,7 @@
 
 1. [숫자의 표현](programmers.co.kr/level2/Expressions)
 2. [최고의 집합](programmers.co.kr/level3/BestSet)
-3. [가장 큰 정사각형 찾기](programmers.co.kr/level4/findLargestSquare/findLargestSquare.js)
+3. [가장 큰 정사각형 찾기](programmers.co.kr/level2/FindLargestSquare)
 4. [땅따먹기 게임](programmers.co.kr/level4/hopscotch/hopscotch.js)
 5. [공항 건설하기](programmers.co.kr/level4/chooseCity/chooseCity.js)
 6. [줄 서는 방법](programmers.co.kr/level5/setAlign/setAlign.js)
