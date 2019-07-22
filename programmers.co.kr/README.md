@@ -2,10 +2,17 @@
 
 https://programmers.co.kr
 
+## 유형
+
+### 해시
+
+- [완주하지 못한 선수](level1/OutOfTheRace)
+
 ## 난이도
 
 ### Level 1
 
+- [완주하지 못한 선수](level1/OutOfTheRace)
 - [시저 암호](level1/Caesar)
 - [최대공약수와 최소공배수](level1/GCDLCM)
 - [콜라츠 추측](level1/Collatz)
