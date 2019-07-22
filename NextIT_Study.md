@@ -19,7 +19,7 @@
 
 ### Week02 2017-12-07
 
-1. [숫자의 표현](programmers.co.kr/level4/expressions/expressions.js)
+1. [숫자의 표현](programmers.co.kr/level2/Expressions)
 2. [최고의 집합](programmers.co.kr/level4/bestSet/bestSet.js)
 3. [가장 큰 정사각형 찾기](programmers.co.kr/level4/findLargestSquare/findLargestSquare.js)
 4. [땅따먹기 게임](programmers.co.kr/level4/hopscotch/hopscotch.js)

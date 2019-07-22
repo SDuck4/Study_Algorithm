@@ -13,6 +13,7 @@ https://programmers.co.kr
 ### Level 2
 
 - [다음 큰 숫자](level2/NextBigNumber)
+- [숫자의 표현](level2/Expressions)
 - [피보나치 수](level2/Fibonacci)
 - [N개의 최소공배수](level2/NLCM)
 
