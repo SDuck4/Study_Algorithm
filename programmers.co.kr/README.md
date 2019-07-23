@@ -7,6 +7,7 @@ https://programmers.co.kr
 ### 해시
 
 - [완주하지 못한 선수](level1/OutOfTheRace)
+- [베스트앨범](level3/BestAlbum)
 
 ## 난이도
 
@@ -32,6 +33,7 @@ https://programmers.co.kr
 - [야근 지수](level3/NoOvertime)
 - [최고의 집합](level3/BestSet)
 - [하노이의 탑](level3/TowerOfHanoi)
+- [베스트앨범](level3/BestAlbum)
 
 ### Level 4
 
