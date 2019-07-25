@@ -1,11 +1,9 @@
 const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 function loopDistance(size, a, b) {
-  let distance = Math.abs(b - a);
-  if (distance < size / 2) {
-    return distance;
-  }
-  return size - distance;
+  let distance1 = Math.abs(b - a);
+  let distance2 = size - distance1;
+  return Math.min(distance1, distance2);
 }
 
 function solution(name) {
@@ -16,12 +14,7 @@ function solution(name) {
       continue;
     }
     let index = alphabet.indexOf(char);
-    let move;
-    if (index < 12) {
-      move = index
-    } else {
-      move = 26 - index;
-    }
+    let move = loopDistance(26, 0, index);
     targetList.push([i, move]);
   }
   let size = name.length;
@@ -30,7 +23,7 @@ function solution(name) {
   while (targetList.length > 0) {
     let targetIndex = 0;
     let minDistance = loopDistance(size, cursor, targetList[targetIndex][0]);
-    for (let i in targetList) {
+    for (let i = 1; i < targetList.length; i++) {
       let target = targetList[i];
       let distance = loopDistance(size, cursor, target[0]);
       if (distance < minDistance) {
@@ -46,6 +39,7 @@ function solution(name) {
   return count;
 }
 
+console.log(solution('JAZ'));
 console.log(solution('JEROEN'));
 console.log(solution('JAN'));
 console.log(solution('AAAA'));
