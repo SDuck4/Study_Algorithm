@@ -12,6 +12,7 @@ https://programmers.co.kr
 ### 탐욕법(Greedy)
 
 - [체육복](level1/Sportswear)
+- [조이스틱](level2/Joystick)
 
 ## 난이도
 
@@ -25,6 +26,7 @@ https://programmers.co.kr
 
 ### Level 2
 
+- [조이스틱](level2/Joystick)
 - [가장 큰 정사각형 찾기](level2/FindLargestSquare)
 - [다음 큰 숫자](level2/NextBigNumber)
 - [숫자의 표현](level2/Expressions)
