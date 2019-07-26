@@ -9,6 +9,10 @@ https://programmers.co.kr
 - [완주하지 못한 선수](level1/OutOfTheRace)
 - [베스트앨범](level3/BestAlbum)
 
+### 정렬(Sort)
+
+- [K번째 수](level1/KthNumber)
+
 ### 완전탐색(Full Search)
 
 - [모의고사](level1/MockTest)
@@ -25,6 +29,7 @@ https://programmers.co.kr
 - [완주하지 못한 선수](level1/OutOfTheRace)
 - [모의고사](level1/MockTest)
 - [체육복](level1/Sportswear)
+- [K번째 수](level1/KthNumber)
 - [시저 암호](level1/Caesar)
 - [최대공약수와 최소공배수](level1/GCDLCM)
 - [콜라츠 추측](level1/Collatz)
