@@ -9,6 +9,10 @@ https://programmers.co.kr
 - [완주하지 못한 선수](level1/OutOfTheRace)
 - [베스트앨범](level3/BestAlbum)
 
+### 스택/큐(Stack/Queue)
+
+- [기능개발](level2/DevelopFeature)
+
 ### 정렬(Sort)
 
 - [K번째 수](level1/KthNumber)
@@ -36,6 +40,7 @@ https://programmers.co.kr
 
 ### Level 2
 
+- [기능개발](level2/DevelopFeature)
 - [조이스틱](level2/Joystick)
 - [가장 큰 정사각형 찾기](level2/FindLargestSquare)
 - [다음 큰 숫자](level2/NextBigNumber)
