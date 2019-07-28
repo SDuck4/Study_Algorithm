@@ -36,6 +36,7 @@ https://programmers.co.kr
 - [K번째 수](level1/KthNumber)
 - [2016년](level1/Year2016)
 - [가운데 글자 가져오기](level1/MiddleChar)
+- [같은 숫자는 싫어](level1/NoSameNumber)
 - [시저 암호](level1/Caesar)
 - [최대공약수와 최소공배수](level1/GCDLCM)
 - [콜라츠 추측](level1/Collatz)
