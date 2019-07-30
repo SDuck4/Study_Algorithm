@@ -33,4 +33,4 @@ https://programmers.co.kr/learn/courses/30/lessons/12915
 
 ## 풀이
 
-[JavaScript](./NoSameNumber.js)
+[JavaScript](./SortNChar.js)
