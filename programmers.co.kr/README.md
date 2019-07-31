@@ -41,6 +41,7 @@ https://programmers.co.kr
 - [두 정수 사이의 합](level1/SumRange)
 - [문자열 내 마음대로 정렬하기](level1/SortNChar)
 - [문자열 내 p와 y의 개수](level1/CountPAndY)
+- [문자열 내림차순으로 배치하기](level1/SortCharDesc)
 - [시저 암호](level1/Caesar)
 - [최대공약수와 최소공배수](level1/GCDLCM)
 - [콜라츠 추측](level1/Collatz)
