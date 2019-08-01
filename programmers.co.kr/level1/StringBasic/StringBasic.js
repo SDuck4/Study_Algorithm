@@ -11,5 +11,5 @@ function solution(s) {
   return true;
 }
 
-console.log(solution('a234'));
-console.log(solution('1234'));
+console.log(solution('a234'));    // false
+console.log(solution('1234'));    // true
