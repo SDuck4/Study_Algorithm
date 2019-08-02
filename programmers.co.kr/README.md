@@ -44,6 +44,7 @@ https://programmers.co.kr
 - [문자열 내림차순으로 배치하기](level1/SortCharDesc)
 - [문자열 다루기 기본](level1/StringBasic)
 - [서울에서 김서방 찾기](level1/FindMrKim)
+- [소수 찾기](level1/CountPrimeNumber)
 - [시저 암호](level1/Caesar)
 - [최대공약수와 최소공배수](level1/GCDLCM)
 - [콜라츠 추측](level1/Collatz)
