@@ -46,6 +46,7 @@ https://programmers.co.kr
 - [서울에서 김서방 찾기](level1/FindMrKim)
 - [소수 찾기](level1/CountPrimeNumber)
 - [수박수박수박수박수박수?](level1/SuBakSu)
+- [문자열을 정수로 바꾸기](level1/StringToInteger)
 - [시저 암호](level1/Caesar)
 - [최대공약수와 최소공배수](level1/GCDLCM)
 - [콜라츠 추측](level1/Collatz)
