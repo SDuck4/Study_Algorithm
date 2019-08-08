@@ -57,6 +57,7 @@ https://programmers.co.kr
 - [제일 작은 수 제거하기](level1/RemoveMinimum)
 - [짝수와 홀수](level1/OddAndEven)
 - [최대공약수와 최소공배수](level1/GCDLCM)
+- [평균 구하기](level1/Mean)
 - [콜라츠 추측](level1/Collatz)
 
 ### Level 2
