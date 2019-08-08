@@ -53,6 +53,7 @@ https://programmers.co.kr
 - [자릿수 더하기](level1/SumDigit)
 - [자연수 뒤집어 배열로 만들기](level1/ReverseDigit)
 - [정수 내림차순으로 배치하기](level1/SortDigitDesc)
+- [정수 제곱근 판별](level1/SquareRoot)
 - [최대공약수와 최소공배수](level1/GCDLCM)
 - [콜라츠 추측](level1/Collatz)
 
