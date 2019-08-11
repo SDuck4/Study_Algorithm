@@ -58,6 +58,7 @@ https://programmers.co.kr
 - [짝수와 홀수](level1/OddAndEven)
 - [최대공약수와 최소공배수](level1/GCDLCM)
 - [평균 구하기](level1/Mean)
+- [하샤드 수](level1/HarshadNumber)
 - [콜라츠 추측](level1/Collatz)
 
 ### Level 2
