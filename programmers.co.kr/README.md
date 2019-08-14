@@ -57,10 +57,11 @@ https://programmers.co.kr
 - [제일 작은 수 제거하기](level1/RemoveMinimum)
 - [짝수와 홀수](level1/OddAndEven)
 - [최대공약수와 최소공배수](level1/GCDLCM)
+- [콜라츠 추측](level1/Collatz)
 - [평균 구하기](level1/Mean)
 - [하샤드 수](level1/HarshadNumber)
 - [핸드폰 번호 가리기](level1/BlindPhoneNumber)
-- [콜라츠 추측](level1/Collatz)
+- [행렬의 덧셈](level1/AddMatrix)
 
 ### Level 2
 
