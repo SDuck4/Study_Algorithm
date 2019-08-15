@@ -63,6 +63,7 @@ https://programmers.co.kr
 - [핸드폰 번호 가리기](level1/BlindPhoneNumber)
 - [행렬의 덧셈](level1/AddMatrix)
 - [x만큼 간격이 있는 n개의 숫자](level1/SumSequence)
+- [직사각형 별찍기](level1/PrintRectangular)
 
 ### Level 2
 
