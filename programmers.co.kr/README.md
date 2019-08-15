@@ -62,6 +62,7 @@ https://programmers.co.kr
 - [하샤드 수](level1/HarshadNumber)
 - [핸드폰 번호 가리기](level1/BlindPhoneNumber)
 - [행렬의 덧셈](level1/AddMatrix)
+- [x만큼 간격이 있는 n개의 숫자](level1/SumSequence)
 
 ### Level 2
 
