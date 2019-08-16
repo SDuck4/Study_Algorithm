@@ -64,6 +64,7 @@ https://programmers.co.kr
 - [행렬의 덧셈](level1/AddMatrix)
 - [x만큼 간격이 있는 n개의 숫자](level1/SumSequence)
 - [직사각형 별찍기](level1/PrintRectangular)
+- [예산](level1/Budget)
 
 ### Level 2
 
