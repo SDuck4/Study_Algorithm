@@ -69,6 +69,7 @@ https://programmers.co.kr
 ### Level 2
 
 - [기능개발](level2/DevelopFeature)
+- [스킬트리](level2/SkillTree)
 - [조이스틱](level2/Joystick)
 - [가장 큰 정사각형 찾기](level2/FindLargestSquare)
 - [다음 큰 숫자](level2/NextBigNumber)
