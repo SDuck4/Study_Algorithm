@@ -72,6 +72,7 @@ https://programmers.co.kr
 - [스킬트리](level2/SkillTree)
 - [탑](level2/SignalTower)
 - [쇠막대기](level2/CutIronBar)
+- [다리를 지나는 트럭](level2/PassBridge)
 - [조이스틱](level2/Joystick)
 - [가장 큰 정사각형 찾기](level2/FindLargestSquare)
 - [다음 큰 숫자](level2/NextBigNumber)
