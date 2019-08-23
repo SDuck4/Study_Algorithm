@@ -73,6 +73,7 @@ https://programmers.co.kr
 - [탑](level2/SignalTower)
 - [쇠막대기](level2/CutIronBar)
 - [다리를 지나는 트럭](level2/PassBridge)
+- [프린터](level2/Printer)
 - [조이스틱](level2/Joystick)
 - [가장 큰 정사각형 찾기](level2/FindLargestSquare)
 - [다음 큰 숫자](level2/NextBigNumber)
