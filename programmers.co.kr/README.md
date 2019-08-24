@@ -75,6 +75,7 @@ https://programmers.co.kr
 - [다리를 지나는 트럭](level2/PassBridge)
 - [프린터](level2/Printer)
 - [조이스틱](level2/Joystick)
+- [가장 큰 수](level2/BigNumber)
 - [가장 큰 정사각형 찾기](level2/FindLargestSquare)
 - [다음 큰 숫자](level2/NextBigNumber)
 - [숫자의 표현](level2/Expressions)
