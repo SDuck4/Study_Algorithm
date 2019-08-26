@@ -79,6 +79,7 @@ https://programmers.co.kr
 - [가장 큰 수](level2/BigNumber)
 - [큰 수 만들기](level2/MakeBigNumber)
 - [H-Index](level2/HIndex)
+- [구명보트](level2/Lifeboat)
 - [가장 큰 정사각형 찾기](level2/FindLargestSquare)
 - [다음 큰 숫자](level2/NextBigNumber)
 - [숫자의 표현](level2/Expressions)
