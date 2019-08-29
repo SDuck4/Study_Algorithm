@@ -83,6 +83,7 @@
 - [H-Index](level2/HIndex)
 - [구명보트](level2/Lifeboat)
 - [가장 큰 정사각형 찾기](level2/FindLargestSquare)
+- [올바른 괄호](level2/CorrectBrackets)
 - [다음 큰 숫자](level2/NextBigNumber)
 - [숫자의 표현](level2/Expressions)
 - [피보나치 수](level2/Fibonacci)
