@@ -13,15 +13,22 @@
 
 ### 스택/큐(Stack/Queue)
 
+- [프린터](level2/Printer)
+- [탑](level2/SignalTower)
+- [쇠막대기](level2/CutIronBar)
+- [다리를 지나는 트럭](level2/PassBridge)
 - [기능개발](level2/DevelopFeature)
 
 ### 정렬(Sort)
 
 - [K번째 수](level1/KthNumber)
+- [가장 큰 수](level2/BigNumber)
+- [H-Index](level2/HIndex)
 
 ### 완전탐색(Full Search)
 
 - [모의고사](level1/MockTest)
+- [소수 찾기](level2/FindPrimeNumber)
 
 ### 탐욕법(Greedy)
 
