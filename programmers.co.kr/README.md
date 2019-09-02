@@ -39,6 +39,7 @@
 
 ### Level 1
 
+- [모든 레코드 조회하기](level1/SelectAllRecords)
 - [완주하지 못한 선수](level1/OutOfTheRace)
 - [모의고사](level1/MockTest)
 - [체육복](level1/Sportswear)
