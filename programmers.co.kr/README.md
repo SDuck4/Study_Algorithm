@@ -55,6 +55,7 @@
 - [문자열 내림차순으로 배치하기](level1/SortCharDesc)
 - [문자열 다루기 기본](level1/StringBasic)
 - [서울에서 김서방 찾기](level1/FindMrKim)
+- [아픈 동물 찾기](level1/FindSickAnimal)
 - [소수 찾기](level1/CountPrimeNumber)
 - [수박수박수박수박수박수?](level1/SuBakSu)
 - [문자열을 정수로 바꾸기](level1/StringToInteger)
