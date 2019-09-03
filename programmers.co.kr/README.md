@@ -61,6 +61,7 @@
 - [문자열을 정수로 바꾸기](level1/StringToInteger)
 - [시저 암호](level1/Caesar)
 - [약수의 합](level1/SumDivisor)
+- [어린 동물 찾기](level1/FindYoungAnimal)
 - [이상한 문자 만들기](level1/StrangeString)
 - [자릿수 더하기](level1/SumDigit)
 - [자연수 뒤집어 배열로 만들기](level1/ReverseDigit)
