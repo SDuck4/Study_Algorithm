@@ -97,6 +97,7 @@
 - [올바른 괄호](level2/CorrectBrackets)
 - [다음 큰 숫자](level2/NextBigNumber)
 - [숫자의 표현](level2/Expressions)
+- [최솟값 구하기](level2/SelectMinimum)
 - [최댓값과 최솟값](level2/MinAndMax)
 - [피보나치 수](level2/Fibonacci)
 - [JadenCase 문자열 만들기](level2/JadenCase)
