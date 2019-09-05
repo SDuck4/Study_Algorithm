@@ -60,7 +60,23 @@ async function getProblem(link) {
 const args = process.argv.slice(2);
 const level = args[0];
 const name = args[1];
-const link = args[2];
+const lang = args[2];
+const link = args[3];
+
+const langExtToLangName = {
+  'c': 'C',
+  'cpp': 'C++',
+  'cs': 'C#',
+  'go': 'Go',
+  'java': 'Java',
+  'js': 'JavaScript',
+  'kt': 'Kotlin',
+  'py': 'Python3',
+  'rb': 'Ruby',
+  'scala': 'Scala',
+  'swift': 'Swift',
+  'sql': 'SQL',
+};
 
 async function app() {
 
@@ -79,13 +95,13 @@ async function app() {
     + `\n`
     + `## 풀이\n`
     + `\n`
-    + `[JavaScript](./${name}.js)\n`;
+    + `[${langExtToLangName[lang]}](./${name}.${lang})\n`;
 
   // 디렉토리 및 파일 생성
   let path = `../../programmers.co.kr/level${level}/${name}`;
   fs.mkdirSync(path);
   fs.writeFileSync(`${path}/README.md`, readmeMd);
-  fs.writeFileSync(`${path}/${name}.js`, '');
+  fs.writeFileSync(`${path}/${name}.${lang}`, '');
 
 }
 app();
