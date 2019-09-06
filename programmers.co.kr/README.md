@@ -114,6 +114,7 @@
 - [최고의 집합](level3/BestSet)
 - [하노이의 탑](level3/TowerOfHanoi)
 - [베스트앨범](level3/BestAlbum)
+- [없어진 기록 찾기](level3/SelectMissingRecord)
 
 ### Level 4
 
