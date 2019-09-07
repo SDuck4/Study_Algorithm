@@ -116,6 +116,7 @@
 - [베스트앨범](level3/BestAlbum)
 - [없어진 기록 찾기](level3/SelectMissingRecord)
 - [있었는데요 없었습니다](level3/ItWasButItWasNot)
+- [오랜 기간 보호한 동물(1)](level3/SelectLongTerm1)
 
 ### Level 4
 
