@@ -106,6 +106,7 @@
 - [고양이와 개는 몇 마리 있을까](level2/CountCatAndDog)
 - [동명 동물 수 찾기](level2/CountSameName)
 - [루시와 엘라 찾기](level2/FindLucyAndElla)
+- [이름이 el로 끝나는 동물 찾기](level2/WhoNameEndsWithEl)
 
 ### Level 3
 
