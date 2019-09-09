@@ -44,6 +44,7 @@
 - [아픈 동물 찾기](level1/FindSickAnimal)
 - [어린 동물 찾기](level1/FindYoungAnimal)
 - [동물의 아이디와 이름](level1/SelectAnimalIdAndName)
+- [여러 기준으로 정렬하기](level1/OrderByMultipleCriteria)
 
 ## 난이도
 
@@ -85,6 +86,7 @@
 - [평균 구하기](level1/Mean)
 - [하샤드 수](level1/HarshadNumber)
 - [핸드폰 번호 가리기](level1/BlindPhoneNumber)
+- [여러 기준으로 정렬하기](level1/OrderByMultipleCriteria)
 - [이름이 없는 동물의 아이디](level1/SelectNoName)
 - [행렬의 덧셈](level1/AddMatrix)
 - [x만큼 간격이 있는 n개의 숫자](level1/SumSequence)
