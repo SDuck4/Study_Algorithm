@@ -45,6 +45,7 @@
 - [어린 동물 찾기](level1/FindYoungAnimal)
 - [동물의 아이디와 이름](level1/SelectAnimalIdAndName)
 - [여러 기준으로 정렬하기](level1/OrderByMultipleCriteria)
+- [상위 n개 레코드](level1/SelectTopRecord)
 
 ## 난이도
 
@@ -90,6 +91,7 @@
 - [이름이 없는 동물의 아이디](level1/SelectNoName)
 - [행렬의 덧셈](level1/AddMatrix)
 - [x만큼 간격이 있는 n개의 숫자](level1/SumSequence)
+- [상위 n개 레코드](level1/SelectTopRecord)
 - [직사각형 별찍기](level1/PrintRectangular)
 - [예산](level1/Budget)
 
