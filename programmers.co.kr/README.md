@@ -43,6 +43,7 @@
 - [역순 정렬하기](level1/SortReverse)
 - [아픈 동물 찾기](level1/FindSickAnimal)
 - [어린 동물 찾기](level1/FindYoungAnimal)
+- [동물의 아이디와 이름](level1/SelectAnimalIdAndName)
 
 ## 난이도
 
@@ -78,6 +79,7 @@
 - [정수 제곱근 판별](level1/SquareRoot)
 - [제일 작은 수 제거하기](level1/RemoveMinimum)
 - [짝수와 홀수](level1/OddAndEven)
+- [동물의 아이디와 이름](level1/SelectAnimalIdAndName)
 - [최대공약수와 최소공배수](level1/GCDLCM)
 - [콜라츠 추측](level1/Collatz)
 - [평균 구하기](level1/Mean)
