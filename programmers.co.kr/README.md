@@ -52,6 +52,7 @@
 - [최댓값 구하기](level1/SelectMaximum)
 - [최솟값 구하기](level2/SelectMinimum)
 - [동물 수 구하기](level2/CountAnimal)
+- [중복 제거하기](level2/CountAnimalName)
 
 ## 난이도
 
@@ -127,6 +128,7 @@
 - [JadenCase 문자열 만들기](level2/JadenCase)
 - [N개의 최소공배수](level2/NLCM)
 - [고양이와 개는 몇 마리 있을까](level2/CountCatAndDog)
+- [중복 제거하기](level2/CountAnimalName)
 - [동명 동물 수 찾기](level2/CountSameName)
 - [루시와 엘라 찾기](level2/FindLucyAndElla)
 - [이름이 el로 끝나는 동물 찾기](level2/WhoNameEndsWithEl)
