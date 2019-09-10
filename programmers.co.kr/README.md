@@ -47,11 +47,17 @@
 - [여러 기준으로 정렬하기](level1/OrderByMultipleCriteria)
 - [상위 n개 레코드](level1/SelectTopRecord)
 
+### SUM, MAX, MIN
+
+- [최댓값 구하기](level1/SelectMaximum)
+- [최솟값 구하기](level2/SelectMinimum)
+
 ## 난이도
 
 ### Level 1
 
 - [모든 레코드 조회하기](level1/SelectAllRecords)
+- [최댓값 구하기](level1/SelectMaximum)
 - [완주하지 못한 선수](level1/OutOfTheRace)
 - [모의고사](level1/MockTest)
 - [체육복](level1/Sportswear)
