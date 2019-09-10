@@ -51,6 +51,7 @@
 
 - [최댓값 구하기](level1/SelectMaximum)
 - [최솟값 구하기](level2/SelectMinimum)
+- [동물 수 구하기](level2/CountAnimal)
 
 ## 난이도
 
@@ -122,6 +123,7 @@
 - [최솟값 구하기](level2/SelectMinimum)
 - [최댓값과 최솟값](level2/MinAndMax)
 - [피보나치 수](level2/Fibonacci)
+- [동물 수 구하기](level2/CountAnimal)
 - [JadenCase 문자열 만들기](level2/JadenCase)
 - [N개의 최소공배수](level2/NLCM)
 - [고양이와 개는 몇 마리 있을까](level2/CountCatAndDog)
