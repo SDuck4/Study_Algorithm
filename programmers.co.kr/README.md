@@ -54,6 +54,12 @@
 - [동물 수 구하기](level2/CountAnimal)
 - [중복 제거하기](level2/CountAnimalName)
 
+### GROUP BY
+
+- [고양이와 개는 몇 마리 있을까](level2/CountCatAndDog)
+- [동명 동물 수 찾기](level2/CountSameName)
+- [입양 시각 구하기(1)](level2/CountByHour1)
+
 ## 난이도
 
 ### Level 1
@@ -130,6 +136,7 @@
 - [고양이와 개는 몇 마리 있을까](level2/CountCatAndDog)
 - [중복 제거하기](level2/CountAnimalName)
 - [동명 동물 수 찾기](level2/CountSameName)
+- [입양 시각 구하기(1)](level2/CountByHour1)
 - [루시와 엘라 찾기](level2/FindLucyAndElla)
 - [이름이 el로 끝나는 동물 찾기](level2/WhoNameEndsWithEl)
 
