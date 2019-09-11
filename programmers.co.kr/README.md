@@ -59,6 +59,7 @@
 - [고양이와 개는 몇 마리 있을까](level2/CountCatAndDog)
 - [동명 동물 수 찾기](level2/CountSameName)
 - [입양 시각 구하기(1)](level2/CountByHour1)
+- [입양 시각 구하기(2)](level4/CountByHour2)
 
 ## 난이도
 
@@ -155,4 +156,5 @@
 ### Level 4
 
 - [예산](level4/Budget)
+- [입양 시각 구하기(2)](level4/CountByHour2)
 - [보호소에서 중성화한 동물](level4/SelectNeutralized)
