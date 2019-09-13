@@ -67,6 +67,13 @@
 - [이름이 있는 동물의 아이디](level1/SelectHasName)
 - [NULL 처리하기](level2/NullToNoName)
 
+### JOIN
+
+- [없어진 기록 찾기](level3/SelectMissingRecord)
+- [있었는데요 없었습니다](level3/ItWasButItWasNot)
+- [오랜 기간 보호한 동물(1)](level3/SelectLongTerm1)
+- [보호소에서 중성화한 동물](level4/SelectNeutralized)
+
 ## 난이도
 
 ### Level 1
