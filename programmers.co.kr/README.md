@@ -61,6 +61,11 @@
 - [입양 시각 구하기(1)](level2/CountByHour1)
 - [입양 시각 구하기(2)](level4/CountByHour2)
 
+### IS NULL
+
+- [이름이 없는 동물의 아이디](level1/SelectNoName)
+- [이름이 있는 동물의 아이디](level1/SelectHasName)
+
 ## 난이도
 
 ### Level 1
@@ -107,6 +112,7 @@
 - [행렬의 덧셈](level1/AddMatrix)
 - [x만큼 간격이 있는 n개의 숫자](level1/SumSequence)
 - [상위 n개 레코드](level1/SelectTopRecord)
+- [이름이 있는 동물의 아이디](level1/SelectHasName)
 - [직사각형 별찍기](level1/PrintRectangular)
 - [예산](level1/Budget)
 
