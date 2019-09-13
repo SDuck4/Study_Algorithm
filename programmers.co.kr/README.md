@@ -65,6 +65,7 @@
 
 - [이름이 없는 동물의 아이디](level1/SelectNoName)
 - [이름이 있는 동물의 아이디](level1/SelectHasName)
+- [NULL 처리하기](level2/NullToNoName)
 
 ## 난이도
 
@@ -141,6 +142,7 @@
 - [JadenCase 문자열 만들기](level2/JadenCase)
 - [N개의 최소공배수](level2/NLCM)
 - [고양이와 개는 몇 마리 있을까](level2/CountCatAndDog)
+- [NULL 처리하기](level2/NullToNoName)
 - [중복 제거하기](level2/CountAnimalName)
 - [동명 동물 수 찾기](level2/CountSameName)
 - [입양 시각 구하기(1)](level2/CountByHour1)
