@@ -74,6 +74,12 @@
 - [오랜 기간 보호한 동물(1)](level3/SelectLongTerm1)
 - [보호소에서 중성화한 동물](level4/SelectNeutralized)
 
+### String, Date
+
+- [루시와 엘라 찾기](level2/FindLucyAndElla)
+- [이름이 el로 끝나는 동물 찾기](level2/WhoNameEndsWithEl)
+- [중성화 여부 파악하기](level2/IsNeutralized)
+
 ## 난이도
 
 ### Level 1
@@ -155,6 +161,7 @@
 - [입양 시각 구하기(1)](level2/CountByHour1)
 - [루시와 엘라 찾기](level2/FindLucyAndElla)
 - [이름이 el로 끝나는 동물 찾기](level2/WhoNameEndsWithEl)
+- [중성화 여부 파악하기](level2/IsNeutralized)
 
 ### Level 3
 
