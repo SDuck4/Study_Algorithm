@@ -80,6 +80,7 @@
 - [이름이 el로 끝나는 동물 찾기](level2/WhoNameEndsWithEl)
 - [중성화 여부 파악하기](level2/IsNeutralized)
 - [오랜 기간 보호한 동물(2)](level3/SelectLongTerm2)
+- [DATETIME에서 DATE로 형 변환](level2/DatetimeToDate)
 
 ## 난이도
 
@@ -163,6 +164,7 @@
 - [루시와 엘라 찾기](level2/FindLucyAndElla)
 - [이름이 el로 끝나는 동물 찾기](level2/WhoNameEndsWithEl)
 - [중성화 여부 파악하기](level2/IsNeutralized)
+- [DATETIME에서 DATE로 형 변환](level2/DatetimeToDate)
 
 ### Level 3
 
