@@ -79,6 +79,7 @@
 - [루시와 엘라 찾기](level2/FindLucyAndElla)
 - [이름이 el로 끝나는 동물 찾기](level2/WhoNameEndsWithEl)
 - [중성화 여부 파악하기](level2/IsNeutralized)
+- [오랜 기간 보호한 동물(2)](level3/SelectLongTerm2)
 
 ## 난이도
 
@@ -174,6 +175,7 @@
 - [없어진 기록 찾기](level3/SelectMissingRecord)
 - [있었는데요 없었습니다](level3/ItWasButItWasNot)
 - [오랜 기간 보호한 동물(1)](level3/SelectLongTerm1)
+- [오랜 기간 보호한 동물(2)](level3/SelectLongTerm2)
 
 ### Level 4
 
