@@ -163,6 +163,7 @@
 - [동명 동물 수 찾기](level2/CountSameName)
 - [입양 시각 구하기(1)](level2/CountByHour1)
 - [영어 끝말잇기](level2/EnglishWordChain)
+- [예상 대진표](level2/Tournament)
 - [루시와 엘라 찾기](level2/FindLucyAndElla)
 - [이름이 el로 끝나는 동물 찾기](level2/WhoNameEndsWithEl)
 - [중성화 여부 파악하기](level2/IsNeutralized)
