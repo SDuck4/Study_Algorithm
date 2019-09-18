@@ -152,6 +152,7 @@
 - [폰켓몬](level2/Ponketmon)
 - [숫자의 표현](level2/Expressions)
 - [최솟값 구하기](level2/SelectMinimum)
+- [최솟값 만들기](level2/MakeMinimum)
 - [최댓값과 최솟값](level2/MinAndMax)
 - [피보나치 수](level2/Fibonacci)
 - [동물 수 구하기](level2/CountAnimal)
