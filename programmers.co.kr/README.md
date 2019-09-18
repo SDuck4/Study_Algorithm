@@ -164,6 +164,7 @@
 - [중복 제거하기](level2/CountAnimalName)
 - [동명 동물 수 찾기](level2/CountSameName)
 - [입양 시각 구하기(1)](level2/CountByHour1)
+- [점프와 순간이동](level2/JumpAndTeleport)
 - [영어 끝말잇기](level2/EnglishWordChain)
 - [예상 대진표](level2/Tournament)
 - [루시와 엘라 찾기](level2/FindLucyAndElla)
