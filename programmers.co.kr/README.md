@@ -157,6 +157,7 @@
 - [동물 수 구하기](level2/CountAnimal)
 - [JadenCase 문자열 만들기](level2/JadenCase)
 - [N개의 최소공배수](level2/NLCM)
+- [짝지어 제거하기](level2/RemovePair)
 - [고양이와 개는 몇 마리 있을까](level2/CountCatAndDog)
 - [NULL 처리하기](level2/NullToNoName)
 - [중복 제거하기](level2/CountAnimalName)
