@@ -9,6 +9,8 @@
 ### 해시(Hash)
 
 - [완주하지 못한 선수](level1/OutOfTheRace)
+- [전화번호 목록](level2/Prefix)
+- [위장](level2/Camouflage)
 - [베스트앨범](level3/BestAlbum)
 
 ### 스택/큐(Stack/Queue)
@@ -141,10 +143,12 @@
 - [다리를 지나는 트럭](level2/PassBridge)
 - [프린터](level2/Printer)
 - [소수 찾기](level2/FindPrimeNumber)
+- [전화번호 목록](level2/Prefix)
 - [조이스틱](level2/Joystick)
 - [가장 큰 수](level2/BigNumber)
 - [큰 수 만들기](level2/MakeBigNumber)
 - [H-Index](level2/HIndex)
+- [위장](level2/Camouflage)
 - [구명보트](level2/Lifeboat)
 - [가장 큰 정사각형 찾기](level2/FindLargestSquare)
 - [올바른 괄호](level2/CorrectBrackets)
