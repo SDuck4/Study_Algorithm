@@ -2,10 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Launch node.js",
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
       "program": "${file}"
+    },
+    {
+      "name": "Launch python",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
     }
   ]
 }
